@@ -43,7 +43,7 @@ def notany():
 
     
 while True:
-    os.system('cls')
+    os.system('clear')
     time.sleep(0.5)
     print("\033[31m" + "              ---------------------------------------")
     print("\033[31m" + "        ----                   C                      -----")
