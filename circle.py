@@ -75,6 +75,7 @@ while True:
         angle = float(input("Central angle: "))
         fcircumference(ban, angle)
     elif ch == "5":
+        print("~~bye-bye~~")
         break
     else:
         notany()
