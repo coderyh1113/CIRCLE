@@ -58,6 +58,7 @@ while True:
     print("[2] Circumference of a circle")
     print("[3] Sector form area")
     print("[4] Fan-shape circumference")
+    print("[5] exit this program")
     ch = input("choose: ")
     if ch == "1":
         ban = float(input("Radius length: "))
@@ -73,5 +74,7 @@ while True:
         ban = float(input("Radius length: "))
         angle = float(input("Central angle: "))
         fcircumference(ban, angle)
+    elif ch == "5":
+        break
     else:
         notany()
