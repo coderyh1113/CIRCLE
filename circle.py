@@ -20,6 +20,7 @@ def sarea(a, b):
     c = a * a
     d = b / 360
     e = c * d
+    time.sleep(0.11111)
     print("")
     print("\033[31m" + str(e) + "π")
     print("\033[37m" + "")
@@ -28,11 +29,13 @@ def fcircumference(a, b):
     c = 2 * a
     d = b / 360
     e = c * d
+    time.sleep(0.11111)
     print("")
     print("\033[31m" + str(e) + "π")
     print("\033[37m" + "")
     input("press enter to continue...")
 def notany():
+    time.sleep(0.11111)
     print("")
     print("\033[31m" + "choose again!")
     print("\033[37m" + "")
